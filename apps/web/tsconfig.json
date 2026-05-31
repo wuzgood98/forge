@@ -3,7 +3,12 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
-      "@workspace/ui/*": ["../../packages/ui/src/*"]
+      "@workspace/ui/*": ["../../packages/ui/src/*"],
+      "@g14o/utils": ["../../packages/utils/src/utils.ts"],
+      "@g14o/utils/types": ["../../packages/utils/src/types.ts"],
+      "@g14o/utils/config": ["../../packages/utils/src/config.ts"],
+      "@g14o/cache": ["../../packages/cache/src/index.ts"],
+      "@g14o/ratelimit": ["../../packages/ratelimit/src/index.ts"]
     },
     "plugins": [
       {

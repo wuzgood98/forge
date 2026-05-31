@@ -8,7 +8,7 @@
     "typescript": "^5",
     "ultracite": "7.8.0"
   },
-  "name": "forge",
+  "name": "g14o",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -17,6 +17,9 @@
     "lint": "ultracite check",
     "format": "ultracite fix",
     "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "test:integration": "turbo test:integration",
+    "test:dist": "node scripts/smoke-dist.mjs",
     "prepare": "husky"
   },
   "version": "0.0.1",

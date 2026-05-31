@@ -1,0 +1,14 @@
+{
+  "extends": "@workspace/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@g14o/ratelimit": ["./src/index.ts"],
+      "@g14o/utils": ["../utils/src/utils.ts"],
+      "@g14o/utils/types": ["../utils/src/types.ts"],
+      "@g14o/utils/config": ["../utils/src/config.ts"]
+    },
+    "strictNullChecks": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
